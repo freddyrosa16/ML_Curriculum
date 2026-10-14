@@ -1,9 +1,9 @@
 # ML Curriculum
 
-A self-paced machine learning track rebuilt from the Holberton School ML curriculum
-(via [JRMC-PR/holbertonschool-machine_learning](https://github.com/JRMC-PR/holbertonschool-machine_learning)),
-with the missing project restored and the weak parts updated for 2026.
-See [FINDINGS.md](FINDINGS.md) for what changed and why.
+A self-paced machine learning curriculum: 48 projects that go from the math foundations
+to neural networks, computer vision, NLP, LLMs, reinforcement learning and deployment,
+using current tools (NumPy, PyTorch, Hugging Face, scikit-learn) as of 2026.
+See [FINDINGS.md](FINDINGS.md) for the research behind it.
 
 **Legend:** **Original** = same project, tasks rewritten · **Modernized** = same ideas, current tools (PyTorch, gymnasium, Hugging Face) · **Restored** = dropped from Holberton, brought back · **New** = fills a gap
 
