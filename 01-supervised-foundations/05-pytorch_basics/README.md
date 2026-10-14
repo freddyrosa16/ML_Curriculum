@@ -1,6 +1,6 @@
 # PyTorch Basics
 
-**Status:** Modernized. Replaces Holberton's TensorFlow 1 `tensorflow` project (placeholders, sessions, `tf.train.Saver`). Every task maps to the same step in PyTorch: placeholders → tensors, `create_layer` → `nn.Linear`, `forward_prop` → an `nn.Module`, train op → optimizer step, Saver → checkpoint dict.
+**Status:** Modernized. Replaces the original course's TensorFlow 1 `tensorflow` project (placeholders, sessions, `tf.train.Saver`). Every task maps to the same step in PyTorch: placeholders → tensors, `create_layer` → `nn.Linear`, `forward_prop` → an `nn.Module`, train op → optimizer step, Saver → checkpoint dict.
 
 ## Why this matters
 You've built networks by hand in NumPy, including every gradient. PyTorch does the boring parts for you: it computes gradients automatically (autograd), provides layers and optimizers, and runs the same code on a CPU, an Apple GPU (MPS) or an NVIDIA GPU. This project rebuilds your MNIST classifier in PyTorch so you can see that the concepts carry over one-to-one.

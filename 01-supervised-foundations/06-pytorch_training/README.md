@@ -1,6 +1,6 @@
 # PyTorch Training
 
-**Status:** Modernized. Replaces Holberton's `keras` project. The same 14 tasks (build a model two ways, optimizer, one-hot, train, validation, early stopping, LR decay, save best, save/load model, weights, config, test, predict) done the PyTorch way: `nn.Sequential` vs subclassing, `DataLoader`, a hand-written training loop, `lr_scheduler`, `state_dict`.
+**Status:** Modernized. Replaces the original course's `keras` project. The same 14 tasks (build a model two ways, optimizer, one-hot, train, validation, early stopping, LR decay, save best, save/load model, weights, config, test, predict) done the PyTorch way: `nn.Sequential` vs subclassing, `DataLoader`, a hand-written training loop, `lr_scheduler`, `state_dict`.
 
 ## Why this matters
 Keras hides the training loop behind `model.fit()`. In PyTorch you write the loop yourself, which feels like more work at first but means you understand (and can change) every step. By the end of this project you'll have a reusable `train_model` function with mini-batches, validation, early stopping, learning-rate decay and checkpointing: the skeleton of almost every PyTorch project you'll write later.

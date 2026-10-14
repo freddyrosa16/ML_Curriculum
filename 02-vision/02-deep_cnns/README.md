@@ -154,7 +154,7 @@ Input `(N, 3, 224, 224)`, output logits:
 >>> sum(p.numel() for p in model.parameters())   # identical to torchvision's densenet121
 7978856
 ```
-(The original Holberton version had no compression by default and an extra batch norm on the raw input. This version follows the paper's DenseNet-BC and torchvision.)
+(The original course's version had no compression by default and an extra batch norm on the raw input. This version follows the paper's DenseNet-BC and torchvision.)
 
 ### 8. Write-up (optional)
 In your own words: why did plain deep networks get worse with depth, and how does each of these three architectures address it? Half a page is enough.

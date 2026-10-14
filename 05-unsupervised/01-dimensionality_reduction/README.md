@@ -1,6 +1,6 @@
 # Dimensionality Reduction
 
-**Status:** Original (PCA), plus the t-SNE tasks from the full Holberton project restored as bonus tasks.
+**Status:** Original (PCA), plus the t-SNE tasks from the full original project restored as bonus tasks.
 
 ## Why this matters
 

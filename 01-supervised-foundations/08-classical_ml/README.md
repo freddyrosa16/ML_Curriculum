@@ -1,6 +1,6 @@
 # Classical Machine Learning with scikit-learn
 
-**Status:** New. Holberton only covered trees; this fills the gap with the models every ML engineer is expected to know.
+**Status:** New. The original course only covered trees; this fills the gap with the models every ML engineer is expected to know.
 
 ## Why this matters
 Before reaching for a neural network, a good engineer tries a simple model: it's faster, easier to explain, and on tabular data it often wins. scikit-learn gives every model the same `fit` / `predict` / `score` interface, so once you know the workflow (split, scale, cross-validate, tune, compare) you can try ten models in ten lines. You'll also connect linear regression back to the linear algebra you already know.

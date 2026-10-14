@@ -1,6 +1,6 @@
 # Face Verification
 
-**Status:** Restored. This project was in the 2019-2021 Holberton curriculum and later dropped. It's rebuilt with modern tools: no dlib (hard to install), a pre-cropped face dataset from scikit-learn instead of manual face alignment, and PyTorch instead of Keras. The core ideas are the same: embeddings, triplet loss, one-shot verification with a distance threshold, and a required ethics write-up.
+**Status:** Restored. This project was in the 2019-2021 version of the original course and later dropped. It's rebuilt with modern tools: no dlib (hard to install), a pre-cropped face dataset from scikit-learn instead of manual face alignment, and PyTorch instead of Keras. The core ideas are the same: embeddings, triplet loss, one-shot verification with a distance threshold, and a required ethics write-up.
 
 ## Why this matters
 A normal classifier can only recognize the classes it was trained on. Face verification has to work for people it has *never seen*: "are these two photos the same person?" The trick is to learn an **embedding**, a short vector per face, where photos of the same person land close together and different people land far apart. The same idea powers phone unlock, image search, recommendation systems and the text embeddings behind RAG in Stage 4. And because faces are personal, this is also the project where you think hard about bias, consent and surveillance.

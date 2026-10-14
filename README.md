@@ -5,7 +5,7 @@ to neural networks, computer vision, NLP, LLMs, reinforcement learning and deplo
 using current tools (NumPy, PyTorch, Hugging Face, scikit-learn) as of 2026.
 See [FINDINGS.md](FINDINGS.md) for the research behind it.
 
-**Legend:** **Original** = same project, tasks rewritten · **Modernized** = same ideas, current tools (PyTorch, gymnasium, Hugging Face) · **Restored** = dropped from Holberton, brought back · **New** = fills a gap
+**Legend:** **Original** = same project, tasks rewritten · **Modernized** = same ideas, current tools (PyTorch, gymnasium, Hugging Face) · **Restored** = dropped from the original course, brought back · **New** = fills a gap
 
 ## How to work through it
 

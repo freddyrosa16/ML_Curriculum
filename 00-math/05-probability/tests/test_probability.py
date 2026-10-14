@@ -196,7 +196,7 @@ def test_8_normal_pdf(Normal):
 # ---------- 9. Normal CDF ----------
 
 def test_9_normal_cdf_near_mean(Normal):
-    # Holberton's version approximates erf with a short series, which is accurate
+    # The original course's version approximates erf with a short series, which is accurate
     # near the mean; a better approximation is welcome too.
     n = Normal(mean=70, stddev=10)
     for x in np.linspace(60, 80, 9):

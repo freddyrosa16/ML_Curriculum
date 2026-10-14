@@ -3,7 +3,7 @@
 **Status:** Modernized. The original used TensorFlow BERT-large plus TF Hub. Now it uses Hugging Face `transformers` with a small PyTorch model (DistilBERT fine-tuned on SQuAD) and `sentence-transformers` for semantic search. The code is structured so the logic can be tested without downloading models.
 
 ## Why this matters
-This is a mini version of the "chat with your documents" systems everyone is building. Step 1: find the most relevant document (*retrieval*, using sentence embeddings). Step 2: pull the answer out of it (*extractive QA*). That pattern, retrieve and then read, is the core of RAG, which you'll build with an LLM in stage 4. Here you'll see each half on its own, using a real knowledge base (Holberton's student-handbook articles).
+This is a mini version of the "chat with your documents" systems everyone is building. Step 1: find the most relevant document (*retrieval*, using sentence embeddings). Step 2: pull the answer out of it (*extractive QA*). That pattern, retrieve and then read, is the core of RAG, which you'll build with an LLM in stage 4. Here you'll see each half on its own, using a real knowledge base (a coding school's student-handbook articles).
 
 ## Concepts to understand first
 - **What is extractive question answering?** The model doesn't write an answer. It points at one: it returns a start position and an end position inside the reference text, and the answer is the text between them. That's why it can only answer with words that actually appear in the document.
@@ -30,7 +30,7 @@ This is a mini version of the "chat with your documents" systems everyone is bui
 - Device: CPU is fine for these models.
 
 ## Data
-- The knowledge base is in this project: `data/ZendeskArticles/` (91 Markdown articles from Holberton's student help center).
+- The knowledge base is in this project: `data/ZendeskArticles/` (91 Markdown articles from a coding school's student help center).
 - Models (downloaded on first use, cached in `~/.cache/huggingface/`):
   - QA: [`distilbert/distilbert-base-cased-distilled-squad`](https://huggingface.co/distilbert/distilbert-base-cased-distilled-squad) (~260 MB)
   - Embeddings: [`sentence-transformers/all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) (~90 MB)
