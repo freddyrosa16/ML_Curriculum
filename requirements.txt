@@ -1,0 +1,45 @@
+# Stages 0-1 (math + from-scratch neural nets): only these
+numpy>=2.0
+matplotlib>=3.9
+scipy>=1.13
+pytest>=8.0
+
+# Stage 1+ (classical ML)
+pandas>=2.2
+scikit-learn>=1.5
+xgboost>=2.1
+optuna>=4.0
+
+# Stage 1+ (deep learning)
+torch>=2.4
+torchvision>=0.19
+
+# Stage 3 (NLP)
+gensim>=4.3
+transformers>=4.45
+datasets>=3.0
+sentence-transformers>=3.1
+
+# Stage 4 (LLMs)
+peft>=0.13
+accelerate>=1.0
+
+# Stage 6 (RL)
+gymnasium[classic-control,atari]>=1.0
+opencv-python>=4.10   # needed by gymnasium's Atari preprocessing wrapper
+
+# Stage 7 (data + deploy)
+requests>=2.32
+pymongo>=4.8
+mongomock>=4.1
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27          # needed by fastapi.testclient
+pydantic>=2.7
+joblib>=1.4
+
+# Optional extras (bonus tasks only)
+# yfinance          # 03-sequences-nlp/02-time_series real-data run
+# ultralytics       # 02-vision/05-object_detection bonus comparison
+# stable-baselines3 # 06-reinforcement-learning/03-deep_q_learning bonus comparison
+# facenet-pytorch   # 02-vision/06-face_verification bonus (pins torch; use a separate venv)

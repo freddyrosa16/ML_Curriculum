@@ -1,0 +1,14 @@
+[
+  {"question": "Which LoRA matrix is initialized to zero?", "relevant_doc_ids": ["lora"], "answer": "B"},
+  {"question": "What does PCA keep when it projects the data?", "relevant_doc_ids": ["pca"], "answer": "the directions of greatest variance"},
+  {"question": "What is the cross-entropy of a model that guesses uniformly over V classes?", "relevant_doc_ids": ["cross_entropy"], "answer": "ln(V)"},
+  {"question": "With what probability does an epsilon-greedy policy pick a random action?", "relevant_doc_ids": ["q_learning"], "answer": "epsilon"},
+  {"question": "How many byte tokens does the BPE vocabulary start with?", "relevant_doc_ids": ["bpe"], "answer": "256"},
+  {"question": "What is the default beta2 value for the Adam optimizer?", "relevant_doc_ids": ["adam"], "answer": "0.999"},
+  {"question": "Which PyTorch call switches dropout off at test time?", "relevant_doc_ids": ["dropout"], "answer": "model.eval()"},
+  {"question": "Which normalization do transformers usually use instead of batch normalization?", "relevant_doc_ids": ["batch_norm"], "answer": "layer normalization"},
+  {"question": "What does the gradient of the loss point toward?", "relevant_doc_ids": ["gradient_descent"], "answer": "uphill"},
+  {"question": "What is the sign of overfitting in the training and validation loss curves?", "relevant_doc_ids": ["overfitting"], "answer": "training loss falls while validation loss rises"},
+  {"question": "What hides future positions in decoder self-attention?", "relevant_doc_ids": ["attention"], "answer": "a causal mask"},
+  {"question": "Which method helps choose the number of clusters k in k-means?", "relevant_doc_ids": ["kmeans"], "answer": "the elbow method"}
+]
